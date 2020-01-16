@@ -1,0 +1,94 @@
+/* As elm-css doesn't have support for CSS Grid, these styles still 
+   have to be written in CSS.
+*/
+
+body {
+    height: 100vh;
+    display: grid;           
+    grid-gap: 20px 0;
+    gap: 20px 0;
+    grid-template-columns: minmax(1fr, 100vw);
+    grid-template-rows: 128px 0 auto 0 64px;
+    grid-template-areas:
+        "header"
+        "sidebar"
+        "content"
+        "sidebar2"
+        "footer"
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+    }
+
+    .header .header-logo {
+        margin-top: 16px;
+    }
+
+    .header-title {
+        display: none
+    }
+
+    .header .navigation {
+        margin-top: 8px;
+    }
+}
+
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.sidebar2 {
+    grid-area: sidebar2;
+}
+
+.content {
+    grid-area: content;
+    margin: 0 8px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.navigation {
+    grid-area: navigation;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.header-logo img {
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+@media only screen and (min-width: 600px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header .header-logo {
+        padding: 0 64px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex: 1 100%;
+    }
+
+    .header .navigation {
+        flex: 1 100%;
+    }
+
+    body {
+        grid-template-rows: 64px 1fr 64px;
+        grid-template-columns: 1fr minmax(400px, 800px) 1fr;
+        grid-template-areas:
+            "header  header header"
+            "sidebar     content    sidebar2"
+            "footer      footer     footer";
+    }
+}
