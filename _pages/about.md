@@ -23,7 +23,7 @@ I speak English (native), Japanese (JLPT N2 level), and a little Chinese.
 ### Technologies and philosophy
 
 I am a full stack developer who has worked with a variety of different technologies.  On the front end,
-I've worked with HTML/5, CSS, Javascript (as well as frameworks like React, Angular), Objective C, and Elm.  On the server,
+I've worked with HTML/5, CSS, Javascript (as well as frameworks like React, Angular), Objective C, Swift, and Elm.  On the server,
 I've worked with a variety of languages and frameworks, namely Java (with frameworks like Spring Boot and Struts),
 Go, Javascript, and Python.  I also have worked closely with load balancing software like HAProxy and Nginx, and have some
 experience working with web service providers like AWS and GCP, as well as working on private cloud services with OpenStack.

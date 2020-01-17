@@ -5392,7 +5392,177 @@ var $author$project$Elmstatic$htmlTemplate = F2(
 							$author$project$Elmstatic$script('//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.1/languages/elm.min.js'),
 							$author$project$Elmstatic$inlineScript('hljs.initHighlightingOnLoad();'),
 							$author$project$Elmstatic$stylesheet('//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.1/styles/default.min.css'),
-							$author$project$Elmstatic$stylesheet('//fonts.googleapis.com/css?family=Merriweather|Open+Sans|Proza+Libre|Inconsolata')
+							$author$project$Elmstatic$stylesheet('//fonts.googleapis.com/css?family=Merriweather|Open+Sans|Proza+Libre|Inconsolata'),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'apple-touch-icon'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '57x57'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/apple-icon-57x57.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'apple-touch-icon'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '60x60'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/apple-icon-60x60.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'apple-touch-icon'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '72x72'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/apple-icon-72x72.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'apple-touch-icon'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '76x76'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/apple-icon-76x76.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'apple-touch-icon'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '114x114'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/apple-icon-114x114.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'apple-touch-icon'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '120x120'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/apple-icon-120x120.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'apple-touch-icon'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '144x144'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/apple-icon-144x144.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'apple-touch-icon'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '152x152'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/apple-icon-152x152.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'apple-touch-icon'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '180x180'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/apple-icon-180x180.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'icon'),
+									A2($elm$html$Html$Attributes$attribute, 'type', 'image/png'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '192x192'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/android-icon-192x192.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'icon'),
+									A2($elm$html$Html$Attributes$attribute, 'type', 'image/png'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '32x32'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/favicon-32x32.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'icon'),
+									A2($elm$html$Html$Attributes$attribute, 'type', 'image/png'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '96x96'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/favicon-96x96.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'icon'),
+									A2($elm$html$Html$Attributes$attribute, 'type', 'image/png'),
+									A2($elm$html$Html$Attributes$attribute, 'sizes', '16x16'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/favicon-16x16.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'link',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'rel', 'manifest'),
+									A2($elm$html$Html$Attributes$attribute, 'href', '/manifest.json')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'meta',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'name', 'msapplication-TileColor'),
+									A2($elm$html$Html$Attributes$attribute, 'content', '#ffffff')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'meta',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'name', 'msapplication-TileImage'),
+									A2($elm$html$Html$Attributes$attribute, 'content', '/ms-icon-144x144.png')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'meta',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'name', 'theme-color'),
+									A2($elm$html$Html$Attributes$attribute, 'content', '#ffffff')
+								]),
+							_List_Nil)
 						])),
 					A3($elm$html$Html$node, 'body', _List_Nil, contentNodes)
 				]));

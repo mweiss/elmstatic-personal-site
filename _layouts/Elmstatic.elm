@@ -145,6 +145,23 @@ htmlTemplate title contentNodes =
             , inlineScript "hljs.initHighlightingOnLoad();"
             , stylesheet "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.1/styles/default.min.css"
             , stylesheet "//fonts.googleapis.com/css?family=Merriweather|Open+Sans|Proza+Libre|Inconsolata"
+            , node "link" [ attribute "rel" "apple-touch-icon", attribute "sizes" "57x57", attribute "href" "/apple-icon-57x57.png" ] []
+            , node "link" [ attribute "rel" "apple-touch-icon", attribute "sizes" "60x60", attribute "href" "/apple-icon-60x60.png" ] []
+            , node "link" [ attribute "rel" "apple-touch-icon", attribute "sizes" "72x72", attribute "href" "/apple-icon-72x72.png" ] []
+            , node "link" [ attribute "rel" "apple-touch-icon", attribute "sizes" "76x76", attribute "href" "/apple-icon-76x76.png" ] []
+            , node "link" [ attribute "rel" "apple-touch-icon", attribute "sizes" "114x114", attribute "href" "/apple-icon-114x114.png" ] []
+            , node "link" [ attribute "rel" "apple-touch-icon", attribute "sizes" "120x120", attribute "href" "/apple-icon-120x120.png" ] []
+            , node "link" [ attribute "rel" "apple-touch-icon", attribute "sizes" "144x144", attribute "href" "/apple-icon-144x144.png" ] []
+            , node "link" [ attribute "rel" "apple-touch-icon", attribute "sizes" "152x152", attribute "href" "/apple-icon-152x152.png" ] []
+            , node "link" [ attribute "rel" "apple-touch-icon", attribute "sizes" "180x180", attribute "href" "/apple-icon-180x180.png" ] []
+            , node "link" [ attribute "rel" "icon", attribute "type" "image/png", attribute "sizes" "192x192", attribute "href" "/android-icon-192x192.png" ] []
+            , node "link" [ attribute "rel" "icon", attribute "type" "image/png", attribute "sizes" "32x32", attribute "href" "/favicon-32x32.png" ] []
+            , node "link" [ attribute "rel" "icon", attribute "type" "image/png", attribute "sizes" "96x96", attribute "href" "/favicon-96x96.png" ] []
+            , node "link" [ attribute "rel" "icon", attribute "type" "image/png", attribute "sizes" "16x16", attribute "href" "/favicon-16x16.png" ] []
+            , node "link" [ attribute "rel" "manifest", attribute "href" "/manifest.json" ] []
+            , node "meta" [ attribute "name" "msapplication-TileColor", attribute "content" "#ffffff" ] []
+            , node "meta" [ attribute "name" "msapplication-TileImage", attribute "content" "/ms-icon-144x144.png" ] []
+            , node "meta" [ attribute "name" "theme-color", attribute "content" "#ffffff" ] []
             ]
         , node "body" [] contentNodes
         ]

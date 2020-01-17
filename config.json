@@ -6,18 +6,18 @@
     },
     "feed": {
         "type": "rss",
-        "title": "Author's fancy blog",
-        "description": "Author's blog posts",
-        "id": "https://example.com",
-        "link": "https://example.com/posts",
-        "image": "https://example.com/img/logo.png",
-        "copyright": "Copyright: Author",
+        "title": "Michael Weiss's blog",
+        "description": "Michael Weiss's blog",
+        "id": "https://mweiss.me",
+        "link": "https://mweiss.me/posts",
+        "image": "https://mweiss.me/img/developer-logo-helper.png",
+        "copyright": "Copyright: Michael Weiss",
         "language": "en",
         "generator": "Elmstatic",
         "author": {
-          "name": "Author",
-          "link": "https://example.com/about"
+          "name": "Michael Weiss",
+          "link": "https://mweiss.me/about"
         }
     },
-    "tags": ["other", "software"]
+    "tags": ["other", "software", "elm"]
 }
