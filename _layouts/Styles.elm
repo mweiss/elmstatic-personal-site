@@ -29,7 +29,7 @@ footerBackground =
 
 linkColor : Color
 linkColor =
-    hex "64b5f6"
+    hex "1976d2"
 
 
 hoverLinkColor : Color
@@ -65,7 +65,7 @@ styles =
             , Css.color <| textPrimary
             , fontFamilies [ "Merriweather", "serif" ]
             , fontSize <| px 18
-            , lineHeight <| Css.em 1.4
+            , lineHeight <| Css.em 1.6
             ]
         , a
             [ Css.color linkColor

@@ -5363,7 +5363,10 @@ var $author$project$Elmstatic$htmlTemplate = F2(
 		return A3(
 			$elm$html$Html$node,
 			'html',
-			_List_Nil,
+			_List_fromArray(
+				[
+					A2($elm$html$Html$Attributes$attribute, 'lang', 'en')
+				]),
 			_List_fromArray(
 				[
 					A3(
@@ -5386,6 +5389,24 @@ var $author$project$Elmstatic$htmlTemplate = F2(
 							_List_fromArray(
 								[
 									A2($elm$html$Html$Attributes$attribute, 'charset', 'utf-8')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'meta',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'name', 'viewport'),
+									A2($elm$html$Html$Attributes$attribute, 'content', 'width=device-width, initial-scale=1')
+								]),
+							_List_Nil),
+							A3(
+							$elm$html$Html$node,
+							'meta',
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$attribute, 'name', 'description'),
+									A2($elm$html$Html$Attributes$attribute, 'content', 'This is Michael Weiss\'s personal site.')
 								]),
 							_List_Nil),
 							$author$project$Elmstatic$script('//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.1/highlight.min.js'),
@@ -8405,7 +8426,7 @@ var $rtfeldman$elm_css$Css$int = function (val) {
 var $rtfeldman$elm_css$Css$left = $rtfeldman$elm_css$Css$prop1('left');
 var $rtfeldman$elm_css$Css$Global$li = $rtfeldman$elm_css$Css$Global$typeSelector('li');
 var $rtfeldman$elm_css$Css$lineHeight = $rtfeldman$elm_css$Css$prop1('line-height');
-var $author$project$Styles$linkColor = $rtfeldman$elm_css$Css$hex('64b5f6');
+var $author$project$Styles$linkColor = $rtfeldman$elm_css$Css$hex('1976d2');
 var $rtfeldman$elm_css$Css$margin = $rtfeldman$elm_css$Css$prop1('margin');
 var $rtfeldman$elm_css$Css$prop3 = F4(
 	function (key, argA, argB, argC) {
@@ -9090,7 +9111,7 @@ var $author$project$Styles$styles = function () {
 							$rtfeldman$elm_css$Css$fontSize(
 							$rtfeldman$elm_css$Css$px(18)),
 							$rtfeldman$elm_css$Css$lineHeight(
-							$rtfeldman$elm_css$Css$em(1.4))
+							$rtfeldman$elm_css$Css$em(1.6))
 						])),
 					$rtfeldman$elm_css$Css$Global$a(
 					_List_fromArray(

@@ -135,11 +135,13 @@ stylesheet href =
 htmlTemplate : String -> List (Html Never) -> Html Never
 htmlTemplate title contentNodes =
     node "html"
-        []
+        [ attribute "lang" "en" ]
         [ node "head"
             []
             [ node "title" [] [ text title ]
             , node "meta" [ attribute "charset" "utf-8" ] []
+            , node "meta" [ attribute "name" "viewport", attribute "content" "width=device-width, initial-scale=1" ] []
+            , node "meta" [ attribute "name" "description", attribute "content" "This is Michael Weiss's personal site." ] []
             , script "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.1/highlight.min.js"
             , script "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.1/languages/elm.min.js"
             , inlineScript "hljs.initHighlightingOnLoad();"
