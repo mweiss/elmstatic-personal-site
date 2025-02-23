@@ -87,11 +87,6 @@ footer =
                 [ text "My GitHub" ]
             ]
         , div [ class "link" ]
-            [ twitterIcon
-            , a [ href "https://twitter.com/micweiss" ]
-                [ text "My Twitter" ]
-            ]
-        , div [ class "link" ]
             [ a [ href "https://www.npmjs.com/package/elmstatic" ]
                 [ text "Created with ♥ via Elmstatic" ]
             ]
